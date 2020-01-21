@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+html, body {
+    margin: 0px; /*Remove default margin*/ 
+    scroll-behavior: smooth;
+
+}
+
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*Viewport height*/
+    width: 100%;
+    background-image: url("https://wallpaperaccess.com/full/1146678.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: lightcoral;
+    z-index: 9;
+
+}
+
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    list-style: none;
+    height: 70px;
+    
+}
+
+
+li {
+    margin: 8px;
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#projects {
+    min-height: 700px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 243, 180);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    
+}
+
+.project-tile {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    transition: .5s;
+
+}
+
+.project-tile, img {
+    width: 200px;
+}
+
+.card-link {
+    color: black;
+    text-decoration: none;
+
+}
+
+.project-tile:hover {
+    transform: scale(1.1);
+}
+
+#about {
+    min-height: 700px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(210, 250, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#a-head {
+    margin-bottom: 2px;
+    font-size: 27px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+#a-p {
+    font-size: 18px;
+    line-height: 1.55em;
+    text-align: left;
+}
+
+#profile-link {
+    
+}
+
+i {
+    margin: 5px;
+    color: black;
+}
+
+i:hover {
+    color: pink;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #projects {
+        flex-direction: column;
+
+    }
+
+    .project-tile {
+        margin: 20px;
+    }
+
+}
