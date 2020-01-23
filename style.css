@@ -14,7 +14,7 @@ html, body {
     align-items: center;
     height: 100vh; /*Viewport height*/
     width: 100%;
-    background-image: url("https://wallpaperaccess.com/full/1146678.jpg");
+    background-image: url("https://data.whicdn.com/images/318658166/original.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -27,7 +27,7 @@ html, body {
 #navbar {
     position: fixed;
     width: 100%;
-    background-color: lightcoral;
+    background-color:#e0b7b5;
     z-index: 9;
 
 }
@@ -41,6 +41,7 @@ html, body {
     margin: 0 auto;
     list-style: none;
     height: 70px;
+    padding: 0;
     
 }
 
@@ -64,7 +65,7 @@ li:hover {
     min-height: 700px;
     height: 100%;
     width: 100%;
-    background-color: rgb(243, 243, 180);
+    background-color: rgb(207, 196, 210);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -99,11 +100,31 @@ li:hover {
     min-height: 700px;
     height: 100%;
     width: 100%;
-    background-color: rgb(210, 250, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/originals/aa/fe/37/aafe37cb7b1660b9fc42be4127cd6e93.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#about-box {
+    background-color:rgb(194, 198, 210);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 74px 80px rgba(194,198,210,1);
+    -moz-box-shadow: 0px 0px 74px 80px rgba(194,198,210,1);
+    box-shadow: 0px 0px 74px 80px rgba(194,198,210,1);
+    
+    
+    
 }
 
 #a-head {
@@ -130,7 +151,18 @@ i {
 }
 
 i:hover {
-    color: pink;
+    color: #df8b9b;
+}
+
+#link_zoom {
+    transition: transform .2s;
+}
+
+
+
+#link-zoom:hover {
+    color: grey;
+    transform: scale(1);
 }
 
 
@@ -140,6 +172,7 @@ i:hover {
     align-items: center;
     width: 100%;
     height: 70px;
+    background-color: #e0b7b5;
     
 }
 
