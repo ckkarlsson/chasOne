@@ -34,6 +34,8 @@ html, body {
     background-color:#e0b7b5;
     z-index: 9;
     box-shadow: 0 4px 10px -2px #e0b7b5;
+    -webkit-box-shadow: 0 4px 10px -2px #e0b7b5;
+    -moz-box-shadow: 0 4px 10px -2px #e0b7b5;
 
 }
 
@@ -177,10 +179,17 @@ i:hover {
     height: 70px;
     background-color: #e0b7b5;
     box-shadow: 0px -4px 10px #e0b7b5;
+    -webkit-box-shadow: 0px -4px 10px #e0b7b5;
+    -moz-box-shadow: 0px -4px 10px #e0b7b5;
+
     
 }
 
 @media only screen and (max-width: 768px) {
+
+    #welcome-section {
+        font-size: 50px;
+    }
 
     #projects {
         flex-direction: column;
